@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.warning {
+  border: 10px ridge red;
+  background-color: yellow;
+  padding: 10px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.warning img {
+  width: 100%;
+  height: auto;
+}
+
+.warning p {
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+}
